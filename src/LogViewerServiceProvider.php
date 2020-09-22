@@ -1,6 +1,6 @@
 <?php
 
-namespace Encore\Admin\LogViewer;
+namespace Liuhelong\laravelAdmin\LogViewer;
 
 use Illuminate\Support\ServiceProvider;
 
