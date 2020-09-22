@@ -1,8 +1,8 @@
 Log viewer for laravel-admin
 ============================
 
-# 修改自 https://github.com/laravel-admin-extensions/log-viewer
-# 修复了 原先系统无法识别logs文件夹下 用下属文件夹存储日志系统
+修改自 https://github.com/laravel-admin-extensions/log-viewer
+修复了 原先系统无法识别logs文件夹下 用下属文件夹存储日志系统
 
 ## Screenshot
 
