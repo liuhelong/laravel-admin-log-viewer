@@ -1,6 +1,6 @@
 <?php
 
-namespace Encore\Admin\LogViewer;
+namespace Liuhelong\laravelAdmin\LogViewer;
 
 use Encore\Admin\Extension;
 
