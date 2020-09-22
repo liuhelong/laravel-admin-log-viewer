@@ -1,10 +1,8 @@
 Log viewer for laravel-admin
 ============================
 
-[![StyleCI](https://styleci.io/repos/98625172/shield?branch=master)](https://styleci.io/repos/98625172)
-[![Packagist](https://img.shields.io/packagist/l/laravel-admin-ext/log-viewer.svg?maxAge=2592000)](https://packagist.org/packages/laravel-admin-ext/log-viewer)
-[![Total Downloads](https://img.shields.io/packagist/dt/laravel-admin-ext/log-viewer.svg?style=flat-square)](https://packagist.org/packages/laravel-admin-ext/log-viewer)
-[![Pull request welcome](https://img.shields.io/badge/pr-welcome-green.svg?style=flat-square)]()
+#修改自 https://github.com/laravel-admin-extensions/log-viewer
+#修复了 原先系统无法识别logs文件夹下 用下属文件夹存储日志系统
 
 ## Screenshot
 
@@ -13,7 +11,7 @@ Log viewer for laravel-admin
 ## Installation
 
 ```
-$ composer require laravel-admin-ext/log-viewer -vvv
+$ composer require liuhelong/laravel-admin-log-viewer -vvv
 
 $ php artisan admin:import log-viewer
 ```
