@@ -1,14 +1,14 @@
 {
-    "name": "laravel-admin-ext/log-viewer",
+    "name": "liuhelong/laravel-admin-log-viewer",
     "description": "Log viewer for laravel",
     "type": "library",
     "keywords": ["laravel-admin", "log", "viewer"],
-    "homepage": "https://github.com/laravel-admin-extensions/log-viewer",
+    "homepage": "https://github.com/liuhelong/laravel-admin-log-viewer",
     "license": "MIT",
     "authors": [
         {
-            "name": "z-song",
-            "email": "zosong@126.com"
+            "name": "goatherd",
+            "email": "854583481@qq.com"
         }
     ],
     "require": {
@@ -20,13 +20,13 @@
     },
     "autoload": {
         "psr-4": {
-            "Encore\\Admin\\LogViewer\\": "src/"
+            "Liuhelong\\laravelAdmin\\LogViewer\\": "src/"
         }
     },
     "extra": {
         "laravel": {
             "providers": [
-                "Encore\\Admin\\LogViewer\\LogViewerServiceProvider"
+                "Liuhelong\\laravelAdmin\\LogViewer\\LogViewerServiceProvider"
             ]
         }
     }
