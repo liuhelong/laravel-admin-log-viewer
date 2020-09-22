@@ -1,6 +1,6 @@
 <?php
 
-namespace Encore\Admin\LogViewer;
+namespace Liuhelong\laravelAdmin\LogViewer;
 
 use Encore\Admin\Admin;
 
@@ -25,9 +25,9 @@ trait BootExtension
     {
         parent::routes(function ($router) {
             /* @var \Illuminate\Routing\Router $router */
-            $router->get('logs', 'Encore\Admin\LogViewer\LogController@index')->name('log-viewer-index');
-            $router->get('log', 'Encore\Admin\LogViewer\LogController@index')->name('log-viewer-file');
-            $router->get('log/tail', 'Encore\Admin\LogViewer\LogController@tail')->name('log-viewer-tail');
+            $router->get('logs', 'Liuhelong\laravelAdmin\LogViewer\LogController@index')->name('log-viewer-index');
+            $router->get('log', 'Liuhelong\laravelAdmin\LogViewer\LogController@index')->name('log-viewer-file');
+            $router->get('log/tail', 'Liuhelong\laravelAdmin\LogViewer\LogController@tail')->name('log-viewer-tail');
         });
     }
 
